@@ -1,0 +1,478 @@
+* {
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.head {
+    width: 100%;
+    height: auto;
+    background-color: #1C658C;
+}
+
+.head .nav-lists {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head .nav-lists .list-item {
+
+}
+
+.head .nav-lists .list-item .list-first {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.head .nav-lists .list-item .list-first img {
+    width: 100px;
+    height: 50px;   
+}
+
+.head .nav-lists .list-item .list-first p {
+    color: white;
+    margin-top: 35px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.head .nav-lists .list-item .list-mid {
+    width: 280px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.head .nav-lists .list-item .list-end {
+    width: 400px;
+    display: flex;
+}
+
+.head .nav-lists .list-item .list-end .list-end1 {
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.head .nav-lists .list-item .list-end .list-end1 h1 {
+    color: white;
+    background-color: orange;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 4px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.head .nav-lists .list-item .list-end .list-end1 .fa {
+    font-size: 25px;
+    color: white;
+}
+
+.head .nav-lists .list-item .list-end .breaker img {
+    width: 10px;
+    height: 30px;
+    color: white;
+    margin-right: 20px;
+}
+
+.head .nav-lists .list-item .list-end .list-end2 {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.head .nav-lists .list-item .list-end .list-end2 .fa {
+    font-size: 25px;
+    color: white;
+}
+
+.head .nav-lists .list-item .list-end .list-end2 h1 {
+    color: white;
+    font-size: 18px;
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+.head .nav-contents {
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.head .nav-contents .text-content {
+    width: 50%;
+    margin-left: 30px;
+}
+
+.head .nav-contents .text-content h1 {
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.head .nav-contents .text-content h1 span {
+    color: #0b0bb6;
+}
+
+.head .nav-contents .text-content p {
+    width: 60%;
+    color: white;
+    margin: 10px 0 40px 0;
+}
+
+.head .nav-contents .text-content .btn-txt {
+    background-color: orange;
+    color: white;
+    width: 200px;
+    height: 50px;
+    margin-bottom: 80px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.head .nav-contents .img-content {
+    width: 650px;
+    height: 500px;
+}
+
+.head .nav-contents .img-content img {
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    border-radius: 50px 0 0 50px;
+}
+
+.nav-ticks {
+    background-color: #398AB9;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-ticks .left {
+    width: 40%;
+}
+
+.nav-ticks .left h1 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.nav-ticks li {
+    color: white;
+    margin: 4px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nav-ticks li .fa {
+
+}
+
+.nav-ticks .right {
+    width: 40%;
+    margin-top: 50px;
+}
+
+.workings {
+    width: 100%;
+    height: 570px;
+    background-color: #D8D2CB;
+}
+
+.workings h1 {
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: darkblue;
+}
+
+.workings .sections {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.workings .sections img {
+    width: 200px;
+    height: 100px;
+    margin: 30px;
+    text-align: center;
+}
+
+.workings .sections .sec1 {
+    width: 30%;
+}
+
+.workings .sections .sec1 h2 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 27px;
+    font-weight: 600;
+    color: darkblue;
+}
+
+.workings .sections .sec1 p {
+    text-align: center;
+    color: darkblue;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 20px;
+}
+
+.workings .sections .sec2 {
+    width: 30%;
+}
+
+.workings .sections .sec2 h2 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 27px;
+    font-weight: 600;
+    color: darkblue;
+}
+
+.workings .sections .sec2 p {
+    text-align: center;
+    color: darkblue;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 20px;
+}
+
+.workings .sections .sec2 .sec2-btn {
+    width: 200px;
+    height: 40px;
+    background-color: darkblue;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+    margin: 80px 0 0 131px;
+}
+
+.workings .sections .sec3 {
+    width: 30%;
+}
+
+.workings .sections .sec3 h2 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 27px;
+    font-weight: 600;
+    color: darkblue;
+}
+
+.workings .sections .sec3 p {
+    text-align: center;
+    color: darkblue;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 20px;
+}
+
+.new-info {
+    background-color: orange;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-info h1 {
+    color: white;
+    font-weight: bolder;
+}
+
+.workings2 {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.workings2 .set1 {
+    width: 40%;
+    height: 100%;
+}
+
+.workings2 .set1 img {
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.workings2 .set2 {
+    width: 50%;
+    height: 100%;
+}
+
+.workings2 h2 {
+    width: 100%;
+    font-size: 38px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 55px 40px 0 0;
+    color: darkblue;
+}
+
+.workings2 .set2 .sets {
+    width: 100%;
+    height: 90%;
+}
+
+.workings2 .set2 .sets .part1 {
+    width: 600px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.workings2 .set2 .sets .part1 .header {
+    width: 30px;
+    height: 155px;
+    font-size: 22px;
+    background-color: orange;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 10px 0 0 10px;
+    padding: 10px;
+}
+
+.workings2 .set2 .sets .part1 .list {
+    width: 500px;
+    height: 155px;
+    border: 2px solid orange;
+    border-radius: 0 10px 10px 0;
+    margin: 15px 15px 15px 0;
+}
+
+.workings2 .set2 .sets .part1 .list h1 {
+    font-size: 23px;
+    text-transform: capitalize;
+    margin: 10px 0 0 10px;
+    color: darkblue;
+}
+
+.workings2 .set2 .sets .part1 .list .list-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.workings2 .set2 .sets .part1 .list .list-part .lis {
+    margin: 35px 0 0 10px;
+    font-size: 18px;
+    color: darkblue;
+}
+
+.workings2 .set2 .sets .part1 .list .list-part .lis li {
+
+}
+
+.workings2 .set2 .sets .part1 .list .list-part .list-btn {
+    width: 130px;
+    height: 30px;
+    margin-right: 10px;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 7px;
+}
+
+.workings3 {
+    width: 100%;
+    height: 600px;
+    background-color: #0982c4;
+    display: flex;
+    justify-content: space-between;
+}
+
+.workings3 .left-side {
+    width: 40%;
+    height: 100%;
+}
+
+.workings3 .left-side img {
+    width: 100%;
+    height: 100%;
+}
+
+.workings3 .right-side {
+    width: 50%;
+    height: 100%;
+    margin: 25px 25px 25px 0;
+} 
+
+.workings3 .right-side h1 {
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    margin-top: 50px;
+}
+
+.workings3 .right-side span {
+    display: block;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+    margin: 25px 0 25px 0;
+}
+
+.workings3 .right-side p {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.workings3 .right-side button {
+    width: 200px;
+    height: 50px;
+    display: block;
+    margin: 135px 0 0 245px;
+    font-size: 20px;
+    font-weight: bold;
+    background: darkblue;
+    color: white;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+}
